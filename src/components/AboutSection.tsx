@@ -159,13 +159,16 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onReadMore }) => {
             <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white bg-black">
               {/* Hotel MP4 Video */}
               <video
-                src={HOTEL_INFO.videoUrl}
                 controls
                 playsInline
                 preload="metadata"
                 className="w-full h-auto aspect-video lg:aspect-[4/5] object-cover"
                 poster={HOTEL_INFO.videoPoster}
               >
+                <source src={HOTEL_INFO.videoUrl} type="video/mp4" />
+                {HOTEL_INFO.videoUrlFallback && (
+                  <source src={HOTEL_INFO.videoUrlFallback} type="video/mp4" />
+                )}
                 Your browser does not support the video tag.
               </video>
 

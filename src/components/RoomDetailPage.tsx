@@ -125,6 +125,10 @@ Message: ${formData.message || 'Please let me know availability.'}`;
                   src={selectedPhoto}
                   alt={room.name}
                   className="w-full h-full object-cover transition-all duration-300"
+                  onError={(e) => {
+                    (e.currentTarget as HTMLImageElement).src =
+                      "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=80";
+                  }}
                 />
               </div>
 
@@ -138,7 +142,15 @@ Message: ${formData.message || 'Please let me know availability.'}`;
                       selectedPhoto === img ? 'border-[#E29600] scale-105' : 'border-transparent opacity-70 hover:opacity-100'
                     }`}
                   >
-                    <img src={img} alt="room thumbnail" className="w-full h-full object-cover" />
+                    <img
+                      src={img}
+                      alt="room thumbnail"
+                      className="w-full h-full object-cover"
+                      onError={(e) => {
+                        (e.currentTarget as HTMLImageElement).src =
+                          "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=300&q=80";
+                      }}
+                    />
                   </button>
                 ))}
               </div>
@@ -483,6 +495,10 @@ Message: ${formData.message || 'Please let me know availability.'}`;
                     src={r.mainImage}
                     alt={r.name}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    onError={(e) => {
+                      (e.currentTarget as HTMLImageElement).src =
+                        "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=800&q=80";
+                    }}
                   />
                 </div>
                 <div className="p-6 sm:w-1/2 flex flex-col justify-between">

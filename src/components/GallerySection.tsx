@@ -83,6 +83,10 @@ export const GallerySection: React.FC = () => {
                 src={GALLERY_IMAGES[currentIndex].src}
                 alt={GALLERY_IMAGES[currentIndex].title}
                 className="w-full h-full object-cover object-center"
+                onError={(e) => {
+                  (e.currentTarget as HTMLImageElement).src =
+                    "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=80";
+                }}
               />
             </AnimatePresence>
             <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-black/20 pointer-events-none" />
@@ -152,6 +156,10 @@ export const GallerySection: React.FC = () => {
                 alt={img.title}
                 className="w-full h-full object-cover"
                 loading="lazy"
+                onError={(e) => {
+                  (e.currentTarget as HTMLImageElement).src =
+                    "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=300&q=80";
+                }}
               />
             </motion.button>
           ))}
@@ -175,6 +183,10 @@ export const GallerySection: React.FC = () => {
                 alt={img.title}
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 loading="lazy"
+                onError={(e) => {
+                  (e.currentTarget as HTMLImageElement).src =
+                    "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=600&q=80";
+                }}
               />
               <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-white">
                 <Maximize2 className="w-5 h-5 text-[#F8BB13]" />
@@ -215,6 +227,10 @@ export const GallerySection: React.FC = () => {
               alt={GALLERY_IMAGES[lightboxIndex].title}
               className="max-h-full max-w-full object-contain rounded-md shadow-2xl"
               onClick={(e) => e.stopPropagation()}
+              onError={(e) => {
+                (e.currentTarget as HTMLImageElement).src =
+                  "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1600&q=80";
+              }}
             />
 
             {/* Lightbox arrows */}

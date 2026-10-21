@@ -127,13 +127,18 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onNavigateHome, onSelectRo
           >
             <div className="rounded-2xl overflow-hidden shadow-2xl border-4 border-white bg-black">
               <video
-                src={HOTEL_INFO.videoUrl}
                 controls
                 playsInline
                 preload="metadata"
                 className="w-full h-auto object-cover"
                 poster={HOTEL_INFO.videoPoster}
-              />
+              >
+                <source src={HOTEL_INFO.videoUrl} type="video/mp4" />
+                {HOTEL_INFO.videoUrlFallback && (
+                  <source src={HOTEL_INFO.videoUrlFallback} type="video/mp4" />
+                )}
+                Your browser does not support the video tag.
+              </video>
             </div>
           </motion.div>
         </div>
@@ -174,6 +179,10 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onNavigateHome, onSelectRo
                       src={room.mainImage}
                       alt={room.name}
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                      onError={(e) => {
+                        (e.currentTarget as HTMLImageElement).src =
+                          "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=800&q=80";
+                      }}
                     />
                   </div>
                   <h4 className="font-serif font-bold text-[#100909] text-lg mb-2 group-hover:text-[#E29600] transition-colors">

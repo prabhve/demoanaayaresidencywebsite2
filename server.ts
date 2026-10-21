@@ -18,6 +18,9 @@ app.get('/api/health', (_req, res) => {
   res.json({ status: 'ok', hotel: 'Anaaya Residency' });
 });
 
+// Serve public static assets (images, videos)
+app.use(express.static(path.resolve(__dirname, 'public')));
+
 // Vite middleware in dev or static files in production
 async function startServer() {
   if (process.env.NODE_ENV !== 'production') {
