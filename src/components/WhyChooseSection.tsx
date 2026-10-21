@@ -8,12 +8,12 @@ export const WhyChooseSection: React.FC = () => {
       {/* Background with luxury mood */}
       <div className="absolute inset-0 opacity-25">
         <img
-          src="https://anaayaresidency.com/wp-content/uploads/2025/12/Why-Choose-Us-1.webp"
+          src="https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1920&q=80"
           alt="Why Choose Anaaya Residency"
           className="w-full h-full object-cover"
           onError={(e) => {
             (e.currentTarget as HTMLImageElement).src =
-              "https://anaayaresidency.com/wp-content/uploads/2026/01/DSC01086-scaled.jpg";
+              "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1920&q=80";
           }}
         />
         <div className="absolute inset-0 bg-gradient-to-b from-[#100909] via-transparent to-[#100909]" />

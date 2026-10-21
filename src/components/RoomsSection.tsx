@@ -62,7 +62,7 @@ export const RoomsSection: React.FC<RoomsSectionProps> = ({ onSelectRoom, onBook
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   onError={(e) => {
                     (e.currentTarget as HTMLImageElement).src =
-                      "https://anaayaresidency.com/wp-content/uploads/2026/01/DSC01086-scaled.jpg";
+                      "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=80";
                   }}
                 />
                 <div className="absolute top-3 left-3 bg-[#100909]/80 backdrop-blur-sm text-white px-3 py-1 rounded text-xs font-medium">

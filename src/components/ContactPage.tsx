@@ -1,4 +1,5 @@
 import React from 'react';
+import { HOTEL_INFO } from '../data/hotelData';
 import { ContactBookingSection } from './ContactBookingSection';
 import { motion, useScroll, useTransform } from 'motion/react';
 
@@ -20,9 +21,13 @@ export const ContactPage: React.FC<ContactPageProps> = ({ onNavigateHome }) => {
           className="absolute -top-10 -bottom-10 inset-x-0"
         >
           <img
-            src="https://anaayaresidency.com/wp-content/uploads/2025/12/Hero-04.webp"
+            src={HOTEL_INFO.heroBg}
             alt="Contact Anaaya Residency"
             className="w-full h-full object-cover scale-105"
+            onError={(e) => {
+              (e.currentTarget as HTMLImageElement).src =
+                "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1920&q=80";
+            }}
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black/95 via-black/80 to-black/50" />
         </motion.div>

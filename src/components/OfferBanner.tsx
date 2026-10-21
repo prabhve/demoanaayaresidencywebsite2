@@ -12,9 +12,13 @@ export const OfferBanner: React.FC<OfferBannerProps> = ({ onBookClick }) => {
       {/* Background imagery */}
       <div className="absolute inset-0 opacity-20">
         <img
-          src="https://anaayaresidency.com/wp-content/uploads/2026/01/DSC01086-scaled.jpg"
+          src="https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1920&q=80"
           alt="Luxury Stay Guwahati"
           className="w-full h-full object-cover"
+          onError={(e) => {
+            (e.currentTarget as HTMLImageElement).src =
+              "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1920&q=80";
+          }}
         />
         <div className="absolute inset-0 bg-gradient-to-r from-[#100909] via-[#100909]/90 to-transparent" />
       </div>

@@ -63,7 +63,7 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ onInquire }) =
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   onError={(e) => {
                     (e.currentTarget as HTMLImageElement).src =
-                      "https://anaayaresidency.com/wp-content/uploads/2026/01/DSC01086-scaled.jpg";
+                      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=800&q=80";
                   }}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-80" />

@@ -1,5 +1,6 @@
 import React from 'react';
 import { HOTEL_INFO, ROOMS } from '../data/hotelData';
+import { BrandLogo } from './BrandLogo';
 import { Phone, Mail, MapPin, Clock, ArrowRight } from 'lucide-react';
 
 interface FooterProps {
@@ -17,14 +18,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               onClick={() => onNavigate('home')}
               className="block cursor-pointer focus:outline-none"
             >
-              <img
-                src={HOTEL_INFO.logo}
-                alt="Anaaya Residency Logo"
-                className="h-14 w-auto object-contain bg-white/5 p-2 rounded-lg"
-                onError={(e) => {
-                  (e.currentTarget as HTMLElement).style.display = 'none';
-                }}
-              />
+              <BrandLogo variant="light" size="lg" />
             </button>
 
             <p className="text-gray-300 text-sm leading-relaxed max-w-sm">

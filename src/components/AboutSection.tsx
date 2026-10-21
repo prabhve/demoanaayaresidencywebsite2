@@ -162,8 +162,9 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onReadMore }) => {
                 src={HOTEL_INFO.videoUrl}
                 controls
                 playsInline
+                preload="metadata"
                 className="w-full h-auto aspect-video lg:aspect-[4/5] object-cover"
-                poster="https://anaayaresidency.com/wp-content/uploads/2026/01/DSC01086-scaled.jpg"
+                poster={HOTEL_INFO.videoPoster}
               >
                 Your browser does not support the video tag.
               </video>

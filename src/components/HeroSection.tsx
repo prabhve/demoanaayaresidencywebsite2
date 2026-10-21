@@ -32,7 +32,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onBookNowClick }) => {
           className="w-full h-full object-cover object-center scale-110"
           onError={(e) => {
             (e.currentTarget as HTMLImageElement).src =
-              "https://anaayaresidency.com/wp-content/uploads/2026/01/DSC01086-scaled.jpg";
+              "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1920&q=80";
           }}
         />
         <div className="absolute inset-0 bg-gradient-to-r from-black/85 via-black/70 to-black/40" />

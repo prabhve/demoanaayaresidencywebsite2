@@ -51,10 +51,11 @@ export const HOTEL_INFO = {
     "Well-appointed rooms designed for families, business travelers, and city visitors seeking a comfortable and peaceful stay in Guwahati.",
   subDescription:
     "Anaaya Residency is a comfortable and well-maintained hotel in Guwahati, located just minutes from Kamakhya Temple. Our rooms, service, and location are thoughtfully designed for families, business travelers, and guests seeking a calm and convenient city stay.",
-  logo: "https://anaayaresidency.com/wp-content/uploads/2025/12/Untitled-design-22-e1766747218223.png",
-  logoSmall: "https://anaayaresidency.com/wp-content/uploads/2025/12/Untitled-design-22-e1766747218223-300x104.png",
-  heroBg: "https://anaayaresidency.com/wp-content/uploads/2025/12/Hero-04.webp",
-  videoUrl: "https://anaayaresidency.com/wp-content/uploads/2025/12/Anaaya-Residency.mp4",
+  logo: "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=300&q=80",
+  logoSmall: "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=150&q=80",
+  heroBg: "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1920&q=80",
+  videoUrl: "https://videos.pexels.com/video-files/5377684/5377684-hd_1920_1080_25fps.mp4",
+  videoPoster: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&q=80",
   phonePrimary: "+91 7099070253",
   phonePrimaryRaw: "7099070253",
   phoneSecondary: "+91 7002160113",
@@ -119,15 +120,15 @@ export const ROOMS: Room[] = [
     beds: "Spacious Bed",
     baths: "Modern Bathroom",
     view: "City View",
-    mainImage: "https://anaayaresidency.com/wp-content/uploads/2025/12/super-delux.jpg",
+    mainImage: "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=80",
     gallery: [
-      "https://anaayaresidency.com/wp-content/uploads/2025/12/super-delux.jpg",
-      "https://anaayaresidency.com/wp-content/uploads/2026/01/DSC01086-scaled.jpg",
-      "https://anaayaresidency.com/wp-content/uploads/2026/01/DSC01087_web.jpg",
-      "https://anaayaresidency.com/wp-content/uploads/2026/01/DSC01088_web.jpg",
-      "https://anaayaresidency.com/wp-content/uploads/2026/01/DSC01085_web.jpg",
-      "https://anaayaresidency.com/wp-content/uploads/2026/01/DSC01091_web.jpg",
-      "https://anaayaresidency.com/wp-content/uploads/2026/01/DSC01092_web.jpg"
+      "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1566665797739-1674de7a421a?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1200&q=80"
     ],
     amenities: [
       "Free Wifi & Internet",
@@ -173,15 +174,15 @@ export const ROOMS: Room[] = [
     beds: "1 King-Size Bed",
     baths: "1 Luxury Bathroom",
     view: "Mountain View & Private Balcony",
-    mainImage: "https://anaayaresidency.com/wp-content/uploads/2026/01/DSC01114_luxury_web.jpg",
+    mainImage: "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80",
     gallery: [
-      "https://anaayaresidency.com/wp-content/uploads/2026/01/DSC01114_luxury_web.jpg",
-      "https://anaayaresidency.com/wp-content/uploads/2026/01/DSC01113_luxury_web.jpg",
-      "https://anaayaresidency.com/wp-content/uploads/2026/01/DSC01110_luxury_web.jpg",
-      "https://anaayaresidency.com/wp-content/uploads/2026/01/DSC01115_luxury_web.jpg",
-      "https://anaayaresidency.com/wp-content/uploads/2026/01/DSC01107_luxury_web.jpg",
-      "https://anaayaresidency.com/wp-content/uploads/2026/01/DSC01106_luxury_web.jpg",
-      "https://anaayaresidency.com/wp-content/uploads/2025/12/08ba5ed4-d711-4fdd-869d-64bc7dc2aa38.jpg"
+      "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1591088398332-8a7791972843?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1540518614846-7ede433c4ef9?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80"
     ],
     amenities: [
       "Free Wifi & Internet",
@@ -229,15 +230,15 @@ export const ROOMS: Room[] = [
     baths: "1 Modern Bath",
     size: "2,560 sq.ft suite area",
     view: "Hill View",
-    mainImage: "https://anaayaresidency.com/wp-content/uploads/2025/12/e0b540e7-af3e-488b-858e-a5898e09a289.jpg",
+    mainImage: "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=1200&q=80",
     gallery: [
-      "https://anaayaresidency.com/wp-content/uploads/2025/12/e0b540e7-af3e-488b-858e-a5898e09a289.jpg",
-      "https://anaayaresidency.com/wp-content/uploads/2025/12/eaaaf03b-20af-4f59-af8f-e904267650db.jpg",
-      "https://anaayaresidency.com/wp-content/uploads/2026/01/DSC01077_luxury_web.jpg",
-      "https://anaayaresidency.com/wp-content/uploads/2026/01/DSC01078_luxury_web.jpg",
-      "https://anaayaresidency.com/wp-content/uploads/2026/01/DSC01081_luxury_web.jpg",
-      "https://anaayaresidency.com/wp-content/uploads/2026/01/DSC01082_luxury_web.jpg",
-      "https://anaayaresidency.com/wp-content/uploads/2026/01/DSC01083_luxury_web.jpg"
+      "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1566665797739-1674de7a421a?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&q=80"
     ],
     amenities: [
       "Free Wifi & Internet",
@@ -275,66 +276,66 @@ export const SERVICES: Service[] = [
     id: "s1",
     title: "Comfortable Accommodation",
     description: "Well-maintained rooms designed for relaxation, cleanliness, and a peaceful stay near Kamakhya Temple.",
-    image: "https://anaayaresidency.com/wp-content/uploads/2025/12/b81404e2-17ea-42a8-b8b2-3a63fc9cfdd6.jpg"
+    image: "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=800&q=80"
   },
   {
     id: "s2",
-    title: "Room Assistance",
-    description: "Our staff is available to assist guests with basic room-related needs and ensure a comfortable experience throughout their stay.",
-    image: "https://anaayaresidency.com/wp-content/uploads/2025/12/Room-Service-.webp"
+    title: "24x7 Inhouse Kitchen",
+    description: "Our staff is available to assist guests with fresh delicious meals, room-related needs, and a comfortable experience.",
+    image: "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=800&q=80"
   },
   {
     id: "s3",
     title: "Housekeeping Service",
     description: "Daily housekeeping ensures clean, hygienic, and pleasant rooms for a comfortable and worry-free stay.",
-    image: "https://anaayaresidency.com/wp-content/uploads/2025/12/Housekeeping-Service-.webp"
+    image: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=800&q=80"
   },
   {
     id: "s4",
     title: "24/7 Front Desk",
     description: "Our front desk team is available to assist guests with check-in, inquiries, and local guidance at any time.",
-    image: "https://anaayaresidency.com/wp-content/uploads/2025/12/247-Front-Desk-1-1.webp"
+    image: "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80"
   },
   {
     id: "s5",
-    title: "Easy Accessibility",
-    description: "Conveniently located near Kamakhya Temple with easy access to public transport and nearby facilities.",
-    image: "https://anaayaresidency.com/wp-content/uploads/2025/12/Kamakhya_Temple_-_DEV_8829-scaled.jpg"
+    title: "Near Kamakhya Temple",
+    description: "Conveniently located near Kamakhya Temple with easy access to public transport, railway station, and nearby facilities.",
+    image: "https://images.unsplash.com/photo-1609137144813-7d9921338f24?auto=format&fit=crop&w=800&q=80"
   }
 ];
 
 export const GALLERY_IMAGES = [
-  { src: "https://anaayaresidency.com/wp-content/uploads/2026/01/DSC01086-scaled.jpg", title: "Luxury Suite Bedroom" },
-  { src: "https://anaayaresidency.com/wp-content/uploads/2026/01/DSC01092_web.jpg", title: "Modern Bed & Lighting" },
-  { src: "https://anaayaresidency.com/wp-content/uploads/2026/01/DSC01091_web.jpg", title: "Executive Room Setup" },
-  { src: "https://anaayaresidency.com/wp-content/uploads/2026/01/DSC01085_web.jpg", title: "Spacious Interiors" },
-  { src: "https://anaayaresidency.com/wp-content/uploads/2026/01/DSC01086_web.jpg", title: "Cozy Furnishings" },
-  { src: "https://anaayaresidency.com/wp-content/uploads/2026/01/DSC01087_web.jpg", title: "Room Ambiance" },
-  { src: "https://anaayaresidency.com/wp-content/uploads/2026/01/DSC01088_web.jpg", title: "TV Unit & Console" },
-  { src: "https://anaayaresidency.com/wp-content/uploads/2026/01/DSC01082_web.jpg", title: "Wardrobe & Storage" },
-  { src: "https://anaayaresidency.com/wp-content/uploads/2026/01/DSC01082_luxury_web-1.jpg", title: "Marble Accents" },
-  { src: "https://anaayaresidency.com/wp-content/uploads/2026/01/DSC01106_luxury_web.jpg", title: "Premium Double Bed" },
-  { src: "https://anaayaresidency.com/wp-content/uploads/2026/01/DSC01107_luxury_web.jpg", title: "Luxury Suite Layout" },
-  { src: "https://anaayaresidency.com/wp-content/uploads/2026/01/DSC01081_luxury_web.jpg", title: "Attached Bathroom" },
-  { src: "https://anaayaresidency.com/wp-content/uploads/2026/01/DSC01082_luxury_web.jpg", title: "Modern Fittings" },
-  { src: "https://anaayaresidency.com/wp-content/uploads/2026/01/DSC01115_luxury_web.jpg", title: "Suite Seating Area" },
-  { src: "https://anaayaresidency.com/wp-content/uploads/2026/01/DSC01077_luxury_web.jpg", title: "Comfortable Stay" },
-  { src: "https://anaayaresidency.com/wp-content/uploads/2026/01/DSC01078_luxury_web.jpg", title: "Fresh Linen & Pillows" },
-  { src: "https://anaayaresidency.com/wp-content/uploads/2026/01/DSC01114_luxury_web.jpg", title: "Mountain View Suite" },
-  { src: "https://anaayaresidency.com/wp-content/uploads/2026/01/DSC01113_luxury_web.jpg", title: "Balcony Room View" },
-  { src: "https://anaayaresidency.com/wp-content/uploads/2026/01/DSC01110_luxury_web.jpg", title: "Balcony Seating" },
-  { src: "https://anaayaresidency.com/wp-content/uploads/2026/01/DSC01083_luxury_web.jpg", title: "Ensuite Shower" },
-  { src: "https://anaayaresidency.com/wp-content/uploads/2025/12/eaaaf03b-20af-4f59-af8f-e904267650db.jpg", title: "Deluxe Twin Beds" },
-  { src: "https://anaayaresidency.com/wp-content/uploads/2025/12/08ba5ed4-d711-4fdd-869d-64bc7dc2aa38.jpg", title: "Family Room" },
-  { src: "https://anaayaresidency.com/wp-content/uploads/2025/12/super-delux.jpg", title: "Super Deluxe Room" },
-  { src: "https://anaayaresidency.com/wp-content/uploads/2025/12/e0b540e7-af3e-488b-858e-a5898e09a289.jpg", title: "Deluxe Room Interior" }
+  { src: "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=80", title: "Luxury Suite Bedroom" },
+  { src: "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80", title: "Modern Bed & Lighting" },
+  { src: "https://images.unsplash.com/photo-1591088398332-8a7791972843?auto=format&fit=crop&w=1200&q=80", title: "Executive Room Setup" },
+  { src: "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&w=1200&q=80", title: "Spacious Balcony View" },
+  { src: "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80", title: "Cozy Furnishings" },
+  { src: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&q=80", title: "Room Ambiance" },
+  { src: "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?auto=format&fit=crop&w=1200&q=80", title: "TV Unit & Console" },
+  { src: "https://images.unsplash.com/photo-1566665797739-1674de7a421a?auto=format&fit=crop&w=1200&q=80", title: "Wardrobe & Storage" },
+  { src: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1200&q=80", title: "Attached Luxury Bathroom" },
+  { src: "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=1200&q=80", title: "Premium Double Bed" },
+  { src: "https://images.unsplash.com/photo-1540518614846-7ede433c4ef9?auto=format&fit=crop&w=1200&q=80", title: "Luxury Suite Layout" },
+  { src: "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1200&q=80", title: "Marble Accents & Finishes" },
+  { src: "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80", title: "Modern Reception & Lobby" },
+  { src: "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=1200&q=80", title: "Inhouse Dining & Kitchen" },
+  { src: "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=80", title: "City View Horizon" },
+  { src: "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80", title: "Fresh Linen & Pillows" },
+  { src: "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&w=1200&q=80", title: "Mountain View Sunrise" },
+  { src: "https://images.unsplash.com/photo-1609137144813-7d9921338f24?auto=format&fit=crop&w=1200&q=80", title: "Kamakhya Scenic Gateway" },
+  { src: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1200&q=80", title: "Modern Sanitaryware & Shower" },
+  { src: "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80", title: "Family Room Comfort" },
+  { src: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&q=80", title: "Warm Evening Lighting" },
+  { src: "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=1200&q=80", title: "Deluxe Twin Beds" },
+  { src: "https://images.unsplash.com/photo-1566665797739-1674de7a421a?auto=format&fit=crop&w=1200&q=80", title: "Dressing Area & Mirror" },
+  { src: "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?auto=format&fit=crop&w=1200&q=80", title: "Peaceful Maligaon Stay" }
 ];
 
 export const REVIEWS: Review[] = [
   {
     id: "r1",
     name: "Piyali Dey",
-    avatar: "https://lh3.googleusercontent.com/a/ACg8ocLZ3iKIxp-4zOGj8svJMfv75NSGnpKeo9DlNbWFWYvBH-6mfQ=w60-h60-c-rp-mo-br100",
+    avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=120&q=80",
     rating: 5,
     date: "A month ago",
     comment: "Best Stay at Maligaon & excellent foods. The staff behaviour is very good 👍",
@@ -343,7 +344,7 @@ export const REVIEWS: Review[] = [
   {
     id: "r2",
     name: "Laxmi Adhikari",
-    avatar: "https://lh3.googleusercontent.com/a-/ALV-UjU5rLVmqk7Fn3-y1MYbOyFBo-WvQPf9wA2ctPD5nS-bWdCrsL4=w60-h60-c-rp-mo-br100",
+    avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=120&q=80",
     rating: 5,
     date: "2 months ago",
     comment: "Very clean and comfortable hotel in Maligaon, Guwahati. Kamakhya temple is easily accessible from here. Highly recommended for families.",
@@ -352,7 +353,7 @@ export const REVIEWS: Review[] = [
   {
     id: "r3",
     name: "Nipu Das",
-    avatar: "https://lh3.googleusercontent.com/a-/ALV-UjXhcjuVvxKnMdggJB1OHEgmJA87D8tVmbL79kR6brK4oPLTma4=w60-h60-c-rp-mo-br100",
+    avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=120&q=80",
     rating: 5,
     date: "2 months ago",
     comment: "Peaceful environment, very polite staff, clean washrooms and comfortable bedding. Will definitely visit again.",
@@ -361,7 +362,7 @@ export const REVIEWS: Review[] = [
   {
     id: "r4",
     name: "Bijoy sing millick Sing",
-    avatar: "https://lh3.googleusercontent.com/a/ACg8ocIJq9zNmmbdUS51RIjZsqRVvU2h7u8JWZs-V6mak63t1396ZA=w60-h60-c-rp-mo-br100",
+    avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=120&q=80",
     rating: 5,
     date: "3 months ago",
     comment: "Spacious rooms with proper ventilation. Prime location on Assam Trunk Road opposite LCB college bus stop. Good parking.",
@@ -370,7 +371,7 @@ export const REVIEWS: Review[] = [
   {
     id: "r5",
     name: "Biki Medhi",
-    avatar: "https://lh3.googleusercontent.com/a/ACg8ocImZT5qpGNB78b0b4YcjhFVVfOSqJyAbhhdYo4uUfi850Wyhw=w60-h60-c-rp-mo-br100",
+    avatar: "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=120&q=80",
     rating: 5,
     date: "4 months ago",
     comment: "Great hospitalities and very peaceful atmosphere. One of the best stay choices near Kamakhya main gate.",
@@ -379,7 +380,7 @@ export const REVIEWS: Review[] = [
   {
     id: "r6",
     name: "Apurba Das Das",
-    avatar: "https://lh3.googleusercontent.com/a/ACg8ocJx9kHPzO504jfBut_bWD4dtz7gofXzEsedIzlnibcSAspK1g=w60-h60-c-rp-mo-br100",
+    avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=120&q=80",
     rating: 5,
     date: "5 months ago",
     comment: "Very neat and clean hotel near Kamakhya gate. Staff is very humble and 24/7 service was super helpful.",
@@ -388,7 +389,7 @@ export const REVIEWS: Review[] = [
   {
     id: "r7",
     name: "Soin Uddin",
-    avatar: "https://lh3.googleusercontent.com/a-/ALV-UjXG2m7p_QWFLrzkwFaUk07xeRy9dxbh50h9ZB23N9vyE2AB1D3l=w60-h60-c-rp-mo-br100",
+    avatar: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=120&q=80",
     rating: 5,
     date: "5 months ago",
     comment: "Top notch service, 24x7 kitchen service is a lifesaver. Rooms are large and well maintained.",
@@ -397,7 +398,7 @@ export const REVIEWS: Review[] = [
   {
     id: "r8",
     name: "Pallabi Das",
-    avatar: "https://lh3.googleusercontent.com/a/ACg8ocIorhYOVXIFo5LDTfFV1aZ5xBdT3n5xbHai_DjpVihSferAWw=w60-h60-c-rp-mo-br100",
+    avatar: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=120&q=80",
     rating: 5,
     date: "6 months ago",
     comment: "Stayed here with family. Super convenient location, prompt assistance and very clean linen.",
@@ -408,14 +409,22 @@ export const REVIEWS: Review[] = [
 export const FAQS: FAQ[] = [
   {
     question: "How can I make a reservation?",
-    answer: "You can easily book your stay through our website’s online booking system or contact our reservation team directly."
+    answer: "You can easily book your stay through our website’s online booking form or call/WhatsApp our reservation team directly at +91 7099070253."
   },
   {
     question: "Do you offer free Wi-Fi at the Hotel?",
-    answer: "Yes, complimentary high-speed Wi-Fi is available throughout the resort, including guest rooms and public areas."
+    answer: "Yes, complimentary high-speed Wi-Fi is available throughout the hotel, including all guest rooms and public areas."
   },
   {
     question: "Are meals included with the room booking?",
-    answer: "Breakfast is included with select room packages. Additional meal plans are available at our in-house restaurant."
+    answer: "Breakfast is available with select room packages. Additionally, our 24x7 in-house kitchen serves fresh, delicious meals on order."
+  },
+  {
+    question: "How far is Anaaya Residency from Kamakhya Temple?",
+    answer: "We are located just minutes away on Assam Trunk Road, near the Kamakhya Temple Main Gate and opposite LCB College Bus Stop in Maligaon."
+  },
+  {
+    question: "What are the Check-in and Check-out timings?",
+    answer: "Check-in begins at 2:00 PM and check-out is by 12:00 PM. Early check-in and late check-out are subject to availability."
   }
 ];

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { createPortal } from 'react-dom';
 import { Phone, Mail, MapPin, Menu, X, ChevronDown, Calendar, MessageSquare } from 'lucide-react';
 import { HOTEL_INFO } from '../data/hotelData';
+import { BrandLogo } from './BrandLogo';
 import { motion, AnimatePresence } from 'motion/react';
 
 interface NavbarProps {
@@ -64,21 +65,9 @@ export const Navbar: React.FC<NavbarProps> = ({ currentView, onNavigate, onBookN
             <div>
               {/* Drawer Top Header */}
               <div className="p-4 border-b border-gray-100 flex items-center justify-between bg-[#F0F4F1] sticky top-0 z-20">
-                <img
-                  src={HOTEL_INFO.logo}
-                  alt="Anaaya Residency"
-                  className="h-9 w-auto object-contain"
-                  onError={(e) => {
-                    (e.currentTarget as HTMLElement).style.display = 'none';
-                    const parent = e.currentTarget.parentElement;
-                    if (parent && !parent.querySelector('.mobile-brand-fallback')) {
-                      const span = document.createElement('span');
-                      span.className = 'mobile-brand-fallback text-base font-serif font-bold text-[#100909]';
-                      span.innerText = 'ANAAYA RESIDENCY';
-                      parent.appendChild(span);
-                    }
-                  }}
-                />
+                <button onClick={() => handleNav('home')} className="text-left cursor-pointer">
+                  <BrandLogo size="sm" />
+                </button>
                 <button
                   onClick={() => setMobileMenuOpen(false)}
                   className="p-2 rounded-full hover:bg-gray-200 text-gray-700 cursor-pointer transition-colors"
@@ -240,21 +229,7 @@ export const Navbar: React.FC<NavbarProps> = ({ currentView, onNavigate, onBookN
             onClick={() => handleNav('home')}
             className="flex items-center text-left focus:outline-none group cursor-pointer"
           >
-            <img
-              src={HOTEL_INFO.logo}
-              alt="Anaaya Residency"
-              className="h-9 sm:h-12 md:h-14 w-auto object-contain transition-transform group-hover:scale-[1.02]"
-              onError={(e) => {
-                (e.currentTarget as HTMLElement).style.display = 'none';
-                const parent = e.currentTarget.parentElement;
-                if (parent && !parent.querySelector('.brand-fallback')) {
-                  const span = document.createElement('span');
-                  span.className = 'brand-fallback text-xl sm:text-2xl font-serif font-bold text-[#100909]';
-                  span.innerText = 'ANAAYA RESIDENCY';
-                  parent.appendChild(span);
-                }
-              }}
-            />
+            <BrandLogo size="md" />
           </button>
 
           {/* Desktop Navigation Links */}

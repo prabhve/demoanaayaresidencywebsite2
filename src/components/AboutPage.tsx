@@ -23,9 +23,13 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onNavigateHome, onSelectRo
           className="absolute -top-12 -bottom-12 inset-x-0"
         >
           <img
-            src="https://anaayaresidency.com/wp-content/uploads/2025/12/Hero-04.webp"
+            src={HOTEL_INFO.heroBg}
             alt="About Anaaya Residency"
             className="w-full h-full object-cover scale-105"
+            onError={(e) => {
+              (e.currentTarget as HTMLImageElement).src =
+                "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1920&q=80";
+            }}
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black/95 via-black/80 to-black/50" />
         </motion.div>
@@ -125,8 +129,10 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onNavigateHome, onSelectRo
               <video
                 src={HOTEL_INFO.videoUrl}
                 controls
+                playsInline
+                preload="metadata"
                 className="w-full h-auto object-cover"
-                poster="https://anaayaresidency.com/wp-content/uploads/2026/01/DSC01086-scaled.jpg"
+                poster={HOTEL_INFO.videoPoster}
               />
             </div>
           </motion.div>
